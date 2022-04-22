@@ -5294,10 +5294,10 @@
   "resolved" "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
   "version" "4.2.0"
 
-"framer-motion@3.x || 4.x || 5.x || 6.x":
-  "integrity" "sha512-Nm6l2cemuFeSC1fmq9R32sCQs1eplOuZ3r14/PxRDewpE3NUr+ul5ulGRRzk8K0Aa5p76Tedi3sfCUaTPa5fRg=="
-  "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-6.3.0.tgz"
-  "version" "6.3.0"
+"framer-motion@^6.3.1", "framer-motion@3.x || 4.x || 5.x || 6.x":
+  "integrity" "sha512-c4NX/XHkQIJdn9V+Yz55WZSPlpracyzFe50up5Vr/V4pxKA7q6t9WgISDo8VgQxuJf8vKPr01ka3UuUllw7zSg=="
+  "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-6.3.1.tgz"
+  "version" "6.3.1"
   dependencies:
     "framesync" "6.0.1"
     "hey-listen" "^1.0.8"

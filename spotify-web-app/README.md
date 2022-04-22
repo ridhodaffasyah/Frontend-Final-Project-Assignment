@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Spotify Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deskripsi Aplikasi
 
-## Available Scripts
+Aplikasi ini bernama Spotify Web App dimana aplikasi ini mempunyai beberapa fitur terutama dalam hal pencarian lagu dan pembuatan playlist sesuai lagu yang dipilih. Aplikasi memanfaatkan API dari Developer Spotify terutama API Search, User, Playlist, dan Track. Scope user yang digunakan yaitu private-modify-playlist
 
-In the project directory, you can run:
+## Fitur Aplikasi
 
-### `npm start`
+1. Fitur Login dengan menggunakan Implicit Grant Flow dari Spotify.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User dapat login dengan akun spotifynya masing-masing. Tapi dalam hal ini harus ditambahkan terlebih dahulu kedalam whitelist.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Fitur Search dengan menggunakan API Search dari Spotify Developers.
 
-### `npm test`
+- Pada fitur ini user bisa memasukkan query pencarian lagu sesuai yang diinginkan dan hasil pencarian tersebut akan mengeluarkan daftar lagu sebanyak 20 lagu. Dari masing-masing lagu tersebut akan ditampilkan foto album, judul lagu, nama penyanyi, dan durasi lagu.
+- Lagu yang sudah dipilih ketika kembali user mencari dengan kata kunci lain dan menemukan lagu tersebut maka lagu tersebut tetap dalam status sudah terpilih.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Fitur Create Playlist dengan menggunakan API Playlist dari Spotify Developers.
 
-### `npm run build`
+- Pembuatan playlist bisa dilakukan jika user telah mengisikan judul playlist (minimal 10 karakter), deskripsi playlist dan memilih beberapa lagu dari hasil pencarian.
+- Pembuatan playlist akan diberitahukan pesannya jika berhasil melakukannya.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Fitur User Profile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- User dapat melihat foto profil, nama dan jumlah follower-nya serta user bisa membuka spotify-nya melalu tombol yang mendirect ke URI masing-masing user.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+Clone atau download versi zip dari Repository ini :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/ridhodaffasyah/Frontend-Final-Project-Assignment.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Lalu lakukan npm install untuk node modules :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Jika sudah lakukan npm start untuk menjalankan aplikasi ini secara development melalui localhost :
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment on Vercel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[](https://choosealicense.com/licenses/mit/)
