@@ -3,10 +3,9 @@ import Search from '../../pages/search/search'
 import Login from '../login/login'
 import { setUserToken } from '../../components/store/user'
 import { useSelector, useDispatch } from 'react-redux'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect, Link } from 'react-router-dom'
 import { redirect } from '../../components/data/endpoint'
 import Profile from '../profile/profile'
-import { Link } from 'react-router-dom'
 
 const Navigation = () => {
     const dispatch = useDispatch()
