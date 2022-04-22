@@ -46,4 +46,4 @@ npm start
 
 ## Deployment on Vercel
 
-[](https://choosealicense.com/licenses/mit/)
+[https://frontend-final-project-assignment.vercel.app/](https://frontend-final-project-assignment.vercel.app/)
